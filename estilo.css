@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -33,14 +34,15 @@ body {
 }
 
 .produtos {
-    margin-top: 67px;
+    margin-top: 189px;
 }
 
 .titulo {
     text-align: center;
     font-size: 49px;
     font-weight: normal;
-    margin-bottom: 19px;
+    margin-bottom: 74px;
+   
 
 }
 
@@ -75,5 +77,20 @@ body {
     box-sizing: border-box;
     margin: 0px auto 25px auto;
     border-radius: 25px;
+    text-decoration: none;
     
+}
+
+.contato{
+    margin-top: 189px ;
+    
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #d9d9d9;
 }
